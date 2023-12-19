@@ -8,10 +8,10 @@
 int main(void)
 {
 	int i;
-	char separator_1 = "";
-	char separator_2 = "";
+	char *separator_1 = "";
+	char *separator_2 = "";
 
-	for (i =0; i < 10, i++)
+	for (i =0; i < 10; i++)
 	{
 		putchar(*separator_1);
 		putchar(*separator_2);
